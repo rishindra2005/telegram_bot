@@ -13,7 +13,7 @@ import markdown
 
 # Create the bot object.
 # TOKEN = os.getenv('BOT_TOKEN')
-bot = Bot(token="7464571551:AAHVI_1lyg3G86hEZIk42QMms6gTfhWEohg")
+bot = Bot(token="Enter your bot token")
 dp = Dispatcher()
 router = Router()
 dp.include_router(router)
@@ -23,7 +23,7 @@ dp.include_router(router)
 
 # Configure the API key for Gemini
 # genai.configure(api_key="risheendra-706e78316177.json")
-genai.configure(api_key="AIzaSyBV8h_Rk9_efeWGUODO4CIyNIxLobsu0LU")
+genai.configure(api_key="enter gemini API key")
 
 model = genai.GenerativeModel('gemini-pro-vision')
 
